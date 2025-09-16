@@ -1,1 +1,18 @@
 
+I need you to create a frontend and backend for this. And each and everything should be connected with database.
+
+And important details, mongo url, api keys will be stored in backend .env file.
+
+Purpose of this app : To automate my social media content creation and scheduling and posting.
+
+There are some followers I get content from. And I remix them, rewrite them or create unique content similar to them with chatgpt.
+
+1. I need a place to create a database of the content I like from other followers. Here I'll provide descriptions.
+
+2. So chatgpt will analyze the above mentioned database and write unique content for linkedin/ instagram. And it give a catchy topic, description and hashtags.
+
+3. And For the generated content should be shown in a place, may be a table, And for that I'll be able to attach images. Images will be saved in aws s3. S3 credentials will be saved in .env file.
+
+4. I'll be able to connect linkedin, instagram accounts via google sign in. So, it will connect automatically with the system. And I'll be able to schedule posts. And will be able to automate the posting process. If there's no images attached, then those posts shouldn't post.
+
+5. Also for all features I need CRUD operations.
